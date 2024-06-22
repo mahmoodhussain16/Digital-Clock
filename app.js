@@ -13,7 +13,7 @@ function clock(){
    else{
     period="AM"
    }
-git add
+
 
    document.querySelector(".hours").innerHTML = hours;
    document.querySelector(".minutes").innerHTML = minutes;
