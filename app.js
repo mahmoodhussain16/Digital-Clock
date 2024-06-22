@@ -9,10 +9,10 @@ function clock(){
 
    if(hours >12 ){
     period="PM"
+   }else{
+    period= "AM"
    }
-   else{
-    period="AM"
-   }
+   
 
 
    document.querySelector(".hours").innerHTML = hours;
