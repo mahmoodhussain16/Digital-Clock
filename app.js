@@ -7,10 +7,13 @@ function clock(){
    const seconds= today.getSeconds();
    let period ="AM";
 
-   if(hours =>12 ){
+   if(hours >12 ){
     period="PM"
    }
-
+   else{
+    period="AM"
+   }
+git add
 
    document.querySelector(".hours").innerHTML = hours;
    document.querySelector(".minutes").innerHTML = minutes;
