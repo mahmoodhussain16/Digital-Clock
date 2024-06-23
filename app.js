@@ -2,17 +2,20 @@
 function clock(){
     const today = new Date();
 
-    const hours = today.getHours();
+    const hours = today.getHours()% 12 || 12;
     const minutes =today.getMinutes();
    const seconds= today.getSeconds();
    let period ="AM";
+   
+   
 
    if(hours >12 ){
     period="PM"
    }else{
     period= "AM"
    }
-   
+ 
+  
 
 
    document.querySelector(".hours").innerHTML = hours;
