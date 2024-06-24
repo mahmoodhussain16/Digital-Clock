@@ -94,13 +94,17 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 1.3em;
-    font-weight: 500;
+    font-weight: 550;
     margin-bottom: 5px;
-    background:-webkit-linear-gradient(90deg, #f8cf49,#e86cb0) ;
+
+    background:-webkit-linear-gradient(90deg, #24ff6d,#2f93f1) ;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text ;
-
 }
+    
+    
+
+
 .day-name,.day-number,.year{
     margin-left: 8px;
 }
@@ -108,3 +112,12 @@ body{
     margin-left: 6px;
 }
 
+
+.method{
+    margin-top: 5px;
+    font-size: 1.4em;
+    font-weight: 600;
+    background:-webkit-linear-gradient(90deg, #ff5e9a,#ffb960) ;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text ;
+}
